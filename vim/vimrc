@@ -1,0 +1,29 @@
+set runtimepath^=~/bin/dotfiles/vim/bundle
+
+syntax enable
+filetype plugin indent on
+
+set showcmd
+set showmode
+
+set backspace=indent,eol,start
+
+set hidden
+
+set wildmenu
+
+set ignorecase
+set smartcase
+
+set number
+set ruler
+
+:set list
+:set sts=4
+
+:set ts=8
+:set expandtab
+:set sw=4
+:set autoindent
+:set smartindent
+:set cindent
